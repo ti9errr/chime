@@ -1,7 +1,12 @@
 Option Explicit
 
 ' Change the path and filename below
-Dim sound : sound = "C:\Windows\Media\Alarm01.wav"
+Dim sound 
+
+sound = "./media/" & hour(now()) & ".mp3"
+
+' WScript.Echo sound
+
 
 Dim o : Set o = CreateObject("wmplayer.ocx")
 With o

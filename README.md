@@ -1,1 +1,1 @@
-# chime
+VBS script to run on windows. Voice out the time at an hourly basis.
